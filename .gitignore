@@ -1,0 +1,30 @@
+# Virtual environment
+labelenv/
+venv/
+.venv/
+env/
+
+# Python caching
+__pycache__/
+*.py[cod]
+*$py.class
+
+# YOLO / Ultralytics specific
+*.pt
+*.onnx
+*.engine
+*.cache
+
+# Data and Predictions (usually kept local)
+/images/
+/labels/
+/runs/
+predictions_clean/
+predictions_clean_ellipse/
+temp_single_image_dataset/
+
+# IDE files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
